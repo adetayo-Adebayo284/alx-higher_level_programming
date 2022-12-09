@@ -40,5 +40,4 @@ def roman_to_int(roman_string):
         if key in roman_string:
             result += r_nums[key]
             roman_string = roman_string.replace(key, '')
-
             return result
